@@ -503,19 +503,19 @@ function App() {
                     </div>
                     <div className="location-item">
                       <div className="location-item-icon"><Phone size={20} /></div>
-                      <div><h4>Phone</h4><p>+91 99993 09921</p></div>
+                      <div><h4>Phone</h4><p>+91 XXXXX XXXXX</p></div>
                     </div>
                     <div className="location-item">
                       <div className="location-item-icon"><Banknote size={20} /></div>
                       <div><h4>Price Range</h4><p>₹600 – ₹1,600 per person</p></div>
                     </div>
-                    <a href="https://google.com/maps/place/Matcha+Brew+%26+Bake/@18.5331128,73.8979771,20.25z/data=!4m6!3m5!1s0x3bc2c15fed8e9b31:0x55153400808fd1de!8m2!3d18.5329864!4d73.8979138!16s%2Fg%2F11mt72lvj7?entry=ttu&g_ep=EgoyMDI2MDYwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ alignSelf: 'flex-start', marginTop: '8px' }}>
+                    <a href="https://www.google.com/maps/place/India" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ alignSelf: 'flex-start', marginTop: '8px' }}>
                       <Navigation size={16} /> Get Directions
                     </a>
                   </div>
                   <div className="location-map">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.0089551229045!2d73.89533887597143!3d18.532991469032646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c15fed8e9b31%3A0x55153400808fd1de!2sMatcha%20Brew%20%26%20Bake!5e0!3m2!1sen!2sin!4v1718200000000!5m2!1sen!2sin"
+                      src="https://maps.google.com/maps?q=India&t=&z=5&ie=UTF8&iwloc=&output=embed"
                       title="Matcha Brew & Bake Location"
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
@@ -534,8 +534,8 @@ function App() {
                 <h2 className="display-lg" style={{ marginTop: '12px' }}>Reserve Your Table</h2>
                 <p className="subheading">Planning an afternoon with friends, study sessions, or work dates? Secure your spot.</p>
                 <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
-                  <a href="tel:+919999309921" className="btn btn-primary inverted"><PhoneCall size={18} /> Call to Reserve</a>
-                  <a href="https://wa.me/919999309921" target="_blank" rel="noopener noreferrer" className="btn btn-ghost">WhatsApp Us</a>
+                  <a href="tel:+91XXXXXXXXXX" className="btn btn-primary inverted"><PhoneCall size={18} /> Call to Reserve</a>
+                  <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener noreferrer" className="btn btn-ghost">WhatsApp Us</a>
                 </div>
               </FadeIn>
             </div>
@@ -600,7 +600,7 @@ function App() {
                     <div style={{ fontSize: 'var(--text-sm)', opacity: 0.7 }}>Total: ₹{cartTotal}</div>
                   </div>
                 </div>
-                <a href={`https://wa.me/919999309921?text=${encodeURIComponent(`Hi! I'd like to order from Matcha Brew & Bake:\n${Object.entries(cart).map(([name, qty]) => `• ${name} x${qty}`).join('\n')}\n\nTotal: ₹${cartTotal}`)}`} target="_blank" rel="noopener noreferrer" className="btn btn-amber btn-sm">
+                <a href={`https://wa.me/91XXXXXXXXXX?text=${encodeURIComponent(`Hi! I'd like to order from Matcha Brew & Bake:\n${Object.entries(cart).map(([name, qty]) => `• ${name} x${qty}`).join('\n')}\n\nTotal: ₹${cartTotal}`)}`} target="_blank" rel="noopener noreferrer" className="btn btn-amber btn-sm">
                   <ShoppingCart size={16} /> Place Order via WhatsApp
                 </a>
               </div>
@@ -634,9 +634,9 @@ function App() {
             <div>
               <h4>Contact</h4>
               <div className="footer-links">
-                <a href="tel:+919999309921">+91 99993 09921</a>
-                <a href="https://wa.me/919999309921" target="_blank" rel="noopener noreferrer">WhatsApp Chat</a>
-                <a href="https://google.com/maps/place/Matcha+Brew+%26+Bake/@18.5331128,73.8979771,20.25z" target="_blank" rel="noopener noreferrer">Get Directions</a>
+                <a href="tel:+91XXXXXXXXXX">+91 XXXXX XXXXX</a>
+                <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener noreferrer">WhatsApp Chat</a>
+                <a href="https://www.google.com/maps/place/India" target="_blank" rel="noopener noreferrer">Get Directions</a>
               </div>
             </div>
             <div>
@@ -655,8 +655,8 @@ function App() {
       {/* =================== MOBILE STICKY BAR =================== */}
       <div className="mobile-bar">
         <div className="mobile-bar-inner">
-          <a href="tel:+919999309921"><PhoneCall size={14} /> Call</a>
-          <a href="https://google.com/maps/place/Matcha+Brew+%26+Bake/@18.5331128,73.8979771,20.25z/data=!4m6!3m5!1s0x3bc2c15fed8e9b31:0x55153400808fd1de!8m2!3d18.5329864!4d73.8979138!16s%2Fg%2F11mt72lvj7?entry=ttu&g_ep=EgoyMDI2MDYwMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer"><Navigation size={14} /> Directions</a>
+          <a href="tel:+91XXXXXXXXXX"><PhoneCall size={14} /> Call</a>
+          <a href="https://www.google.com/maps/place/India" target="_blank" rel="noopener noreferrer"><Navigation size={14} /> Directions</a>
           <a onClick={() => setPage('order')} className="primary" style={{ cursor: 'pointer' }}><ShoppingBag size={14} /> Order</a>
         </div>
       </div>
